@@ -7,7 +7,7 @@ const ClickMe = () => {
     const [textColorNum, setTextColorNum] = useState(0)
     // const [textTransformNum, setTextTransformNum] = useState(0)
     // const [fontFamilyNum, setFontFamilyNum] = useState(0)
-    const [fontWeightNum, setFontWeightNum] = useState(0)
+    // const [fontWeightNum, setFontWeightNum] = useState(0)
     const [textHeightPosition, setTextHeightPosition ] = useState(0)
     const [textWidthPosition, setTextWidthPosition] = useState(0)
     const [bgColorNum, setBgColorNum] = useState(10)
@@ -16,14 +16,14 @@ const ClickMe = () => {
     const colors = Object.keys(colorsObject)
 
     let phase1 = {
-        fontWeight: fontWeights[fontWeightNum],
+        // fontWeight: fontWeights[fontWeightNum],
         color: colors[textColorNum],
         // fontFamily: fonts[fontFamilyNum],
         // textTransform: textTransforms[textTransformNum],
     };
 
     let phase2 = {
-        fontWeight: fontWeights[fontWeightNum],
+        // fontWeight: fontWeights[fontWeightNum],
         color: "white",
         // fontFamily: fonts[fontFamilyNum],
         // textTransform: textTransforms[textTransformNum],
@@ -33,7 +33,7 @@ const ClickMe = () => {
     };
 
     let phase3 = {
-        fontWeight: fontWeights[fontWeightNum],
+        // fontWeight: fontWeights[fontWeightNum],
         color: colors[textColorNum],
         // fontFamily: fonts[fontFamilyNum],
         // textTransform: textTransforms[textTransformNum],
@@ -48,7 +48,7 @@ const ClickMe = () => {
         setTextColorNum(Math.floor(Math.random() * colors.length));
         setBgColorNum(Math.floor(Math.random() * colors.length));
         // setFontFamilyNum(Math.floor(Math.random() * fonts.length));
-        setFontWeightNum(Math.floor(Math.random() * fontWeights.length))
+        // setFontWeightNum(Math.floor(Math.random() * fontWeights.length))
         // setTextTransformNum(Math.floor(Math.random() * textTransforms.length))
         setTextHeightPosition(Math.floor(Math.random() * 95))
         setTextWidthPosition(Math.floor(Math.random() * 95))
