@@ -1,4 +1,4 @@
-const COLORS = {
+const colors = {
         AliceBlue: '#F0F8FF',
         AntiqueWhite: '#FAEBD7',
         Aqua: '#00FFFF',
@@ -149,4 +149,4 @@ const COLORS = {
         YellowGreen: '#9ACD32',
 }
 
-export default COLORS
+export default colors
